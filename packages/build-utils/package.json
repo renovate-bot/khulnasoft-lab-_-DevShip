@@ -4,10 +4,10 @@
   "license": "Apache-2.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.js",
-  "homepage": "https://github.com/vercel/vercel/blob/main/DEVELOPING_A_RUNTIME.md",
+  "homepage": "https://github.com/khulnasoft-lab/devship/blob/main/DEVELOPING_A_RUNTIME.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vercel/vercel.git",
+    "url": "https://github.com/khulnasoft-lab/devship.git",
     "directory": "packages/now-build-utils"
   },
   "scripts": {

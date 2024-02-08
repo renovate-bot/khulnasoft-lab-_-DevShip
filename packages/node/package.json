@@ -6,7 +6,7 @@
   "homepage": "https://vercel.com/docs/runtimes#official-runtimes/node-js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vercel/vercel.git",
+    "url": "https://github.com/khulnasoft-lab/devship.git",
     "directory": "packages/node"
   },
   "scripts": {
