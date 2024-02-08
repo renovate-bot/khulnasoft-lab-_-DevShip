@@ -801,8 +801,8 @@ importers:
   packages/edge:
     devDependencies:
       '@edge-runtime/jest-environment':
-        specifier: 2.3.7
-        version: 2.3.7
+        specifier: 2.3.9
+        version: 2.3.9
       '@types/jest':
         specifier: 27.4.1
         version: 27.4.1
@@ -2409,11 +2409,11 @@ packages:
     engines: {node: '>=16'}
     dev: false
 
-  /@edge-runtime/jest-environment@2.3.7:
-    resolution: {integrity: sha512-gfr8yAlvqt3WkyHOzuxf84Y6naPawGjn4CHlaMnH0MYBVYKvF6J/WORuw85z88fwzK5dmJwiBSQoVdyP2ndIzQ==}
+  /@edge-runtime/jest-environment@2.3.9:
+    resolution: {integrity: sha512-wgw9QbIp6gZydoJiQKZ1MN8YH3hTgNht4lGY2DsVfYFwvYzLl3NDfLZpUsyLrgV+7ZEDbALTDriHKeR0o0b2Kg==}
     engines: {node: '>=16'}
     dependencies:
-      '@edge-runtime/vm': 3.1.7
+      '@edge-runtime/vm': 3.1.8
       '@jest/environment': 29.5.0
       '@jest/fake-timers': 29.5.0
       jest-mock: 29.5.0
@@ -2440,12 +2440,26 @@ packages:
   /@edge-runtime/primitives@4.0.5:
     resolution: {integrity: sha512-t7QiN5d/KpXgCvIfSt6Nm9Hj3WVdNgc5CpOD73jasY+9EvTI7Ngdj5cXvjcHrPcmYWJZMySPgeEeoL/1N/Llag==}
     engines: {node: '>=16'}
+    dev: false
+
+  /@edge-runtime/primitives@4.0.6:
+    resolution: {integrity: sha512-Ahv7SdVJiFryuauSmubY4bVYvVWsf2h/n67TRRT5ERs6eK90xyeCB3hmn1ExTqaZtxO0Q9QTbEUXVxz6o4iSzw==}
+    engines: {node: '>=16'}
+    dev: true
 
   /@edge-runtime/vm@3.1.7:
     resolution: {integrity: sha512-hUMFbDQ/nZN+1TLMi6iMO1QFz9RSV8yGG8S42WFPFma1d7VSNE0eMdJUmwjmtav22/iQkzHMmu6oTSfAvRGS8g==}
     engines: {node: '>=16'}
     dependencies:
       '@edge-runtime/primitives': 4.0.5
+    dev: false
+
+  /@edge-runtime/vm@3.1.8:
+    resolution: {integrity: sha512-BticbgpQAh8zRXUrpkbwxhEy9eAMp0L0+thAcS+xLD+uhWpTqsyqovdvV6e4FeeRo5sBg+lnMpoSG8bulFHKTQ==}
+    engines: {node: '>=16'}
+    dependencies:
+      '@edge-runtime/primitives': 4.0.6
+    dev: true
 
   /@emotion/hash@0.9.0:
     resolution: {integrity: sha512-14FtKiHhy2QoPIzdTcvh//8OyBlknNs2nXRwIhG904opCby3l+9Xaf/wuPvICBF0rc1ZCNBd3nKe9cd2mecVkQ==}
