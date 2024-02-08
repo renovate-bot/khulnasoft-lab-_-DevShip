@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@blitzjs/auth": "2.0.3",
-    "@blitzjs/next": "2.0.3",
+    "@blitzjs/next": "2.0.4",
     "@blitzjs/rpc": "^2.0.0",
     "blitz": "2.0.3",
     "next": "13.5.6",
