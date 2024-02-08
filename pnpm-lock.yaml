@@ -205,8 +205,8 @@ importers:
   packages/build-utils:
     devDependencies:
       '@iarna/toml':
-        specifier: 2.2.3
-        version: 2.2.3
+        specifier: 2.2.5
+        version: 2.2.5
       '@types/async-retry':
         specifier: ^1.2.1
         version: 1.4.5
@@ -846,8 +846,8 @@ importers:
   packages/frameworks:
     dependencies:
       '@iarna/toml':
-        specifier: 2.2.3
-        version: 2.2.3
+        specifier: 2.2.5
+        version: 2.2.5
       '@vercel/error-utils':
         specifier: 2.0.2
         version: link:../error-utils
@@ -3091,8 +3091,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iarna/toml@2.2.3:
-    resolution: {integrity: sha512-FmuxfCuolpLl0AnQ2NHSzoUKWEJDFl63qXjzdoWBVyFCXzMGm1spBzk7LeHNoVCiWCF7mRVms9e6jEV9+MoPbg==}
+  /@iarna/toml@2.2.5:
+    resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
 
   /@isaacs/cliui@8.0.2:
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
