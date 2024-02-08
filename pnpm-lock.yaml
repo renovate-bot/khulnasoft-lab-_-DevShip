@@ -211,8 +211,8 @@ importers:
         specifier: ^1.2.1
         version: 1.4.5
       '@types/cross-spawn':
-        specifier: 6.0.0
-        version: 6.0.0
+        specifier: 6.0.6
+        version: 6.0.6
       '@types/end-of-stream':
         specifier: ^1.4.0
         version: 1.4.1
@@ -1476,8 +1476,8 @@ importers:
         specifier: 8.10.64
         version: 8.10.64
       '@types/cross-spawn':
-        specifier: 6.0.0
-        version: 6.0.0
+        specifier: 6.0.6
+        version: 6.0.6
       '@types/fs-extra':
         specifier: 9.0.13
         version: 9.0.13
@@ -4272,8 +4272,8 @@ packages:
     resolution: {integrity: sha512-4Kh9a6B2bQciAhf7FSuMRRkUWecJgJu9nPnx3yzpsfXX/c50REIqpHY4C82bXP90qrLtXtkDxTZosYO3UpOwlA==}
     dev: true
 
-  /@types/cross-spawn@6.0.0:
-    resolution: {integrity: sha512-evp2ZGsFw9YKprDbg8ySgC9NA15g3YgiI8ANkGmKKvvi0P2aDGYLPxQIC5qfeKNUOe3TjABVGuah6omPRpIYhg==}
+  /@types/cross-spawn@6.0.6:
+    resolution: {integrity: sha512-fXRhhUkG4H3TQk5dBhQ7m/JDdSNHKwR2BBia62lhwEIq9xGiQKLxd6LymNhn47SjXhsUEPmxi+PKw2OkW4LLjA==}
     dependencies:
       '@types/node': 16.18.11
     dev: true

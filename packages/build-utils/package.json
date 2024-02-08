@@ -20,7 +20,7 @@
   "devDependencies": {
     "@iarna/toml": "2.2.3",
     "@types/async-retry": "^1.2.1",
-    "@types/cross-spawn": "6.0.0",
+    "@types/cross-spawn": "6.0.6",
     "@types/end-of-stream": "^1.4.0",
     "@types/fs-extra": "9.0.13",
     "@types/glob": "7.2.0",
