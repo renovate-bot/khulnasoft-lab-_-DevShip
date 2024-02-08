@@ -65,8 +65,8 @@ importers:
         specifier: 29.5.0
         version: 29.5.0(@types/node@14.18.33)
       json5:
-        specifier: 2.1.1
-        version: 2.1.1
+        specifier: 2.2.2
+        version: 2.2.2
       lint-staged:
         specifier: 9.2.5
         version: 9.2.5
@@ -10849,16 +10849,10 @@ packages:
       minimist: 1.2.7
     dev: true
 
-  /json5@2.1.1:
-    resolution: {integrity: sha512-l+3HXD0GEI3huGq1njuqtzYK8OYJyXMkOLtQ53pjWh89tvWS2h6l+1zMkYWqlb57+SiQodKZyvMEFb2X+KrFhQ==}
-    engines: {node: '>=6'}
-    dependencies:
-      minimist: 1.2.7
-    dev: true
-
   /json5@2.2.2:
     resolution: {integrity: sha512-46Tk9JiOL2z7ytNQWFLpj99RZkVgeHf87yGQKsIkaPz1qSH9UczKH1rO7K3wgRselo0tYMUNfecYpm/p1vC7tQ==}
     engines: {node: '>=6'}
+    hasBin: true
 
   /json5@2.2.3:
     resolution: {integrity: sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==}
