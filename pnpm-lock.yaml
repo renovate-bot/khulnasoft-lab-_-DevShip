@@ -353,8 +353,8 @@ importers:
         specifier: 2.2.2
         version: 2.2.2
       '@next/env':
-        specifier: 11.1.2
-        version: 11.1.2
+        specifier: 11.1.4
+        version: 11.1.4
       '@sentry/node':
         specifier: 5.5.0
         version: 5.5.0
@@ -3466,8 +3466,8 @@ packages:
     resolution: {integrity: sha512-9b8mPpKrfeGRuhFH5iO1iwCLeIIsV6+H1sRfxbkoGXIyQE2BTsPd9zqSqQJ+pv5sJ/hT5M1zvOFL02MnEezFug==}
     dev: true
 
-  /@next/env@11.1.2:
-    resolution: {integrity: sha512-+fteyVdQ7C/OoulfcF6vd1Yk0FEli4453gr8kSFbU8sKseNSizYq6df5MKz/AjwLptsxrUeIkgBdAzbziyJ3mA==}
+  /@next/env@11.1.4:
+    resolution: {integrity: sha512-vEW+fSulzZams4nYmcX9LByb1moMBlkwOAVf0eF+44u+1N/h7HDeznPBWIjEfihzTku8rdLB0k7u8VT8AGtNkQ==}
     dev: true
 
   /@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1:
