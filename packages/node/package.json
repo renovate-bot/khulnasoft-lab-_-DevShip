@@ -44,7 +44,7 @@
     "@babel/plugin-transform-modules-commonjs": "7.5.0",
     "@tootallnate/once": "1.1.2",
     "@types/aws-lambda": "8.10.19",
-    "@types/content-type": "1.1.5",
+    "@types/content-type": "1.1.8",
     "@types/cookie": "0.3.3",
     "@types/etag": "1.8.0",
     "@types/jest": "29.5.0",
