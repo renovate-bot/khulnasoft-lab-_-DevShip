@@ -1089,8 +1089,8 @@ importers:
         specifier: 8.10.19
         version: 8.10.19
       '@types/buffer-crc32':
-        specifier: 0.2.0
-        version: 0.2.0
+        specifier: 0.2.4
+        version: 0.2.4
       '@types/bytes':
         specifier: 3.1.1
         version: 3.1.1
@@ -4219,8 +4219,8 @@ packages:
       '@types/node': 16.18.11
     dev: true
 
-  /@types/buffer-crc32@0.2.0:
-    resolution: {integrity: sha512-6lBhJ55o2DKVCxTanyS6ohWRyebCcyivIK7pRHiwZuOYbUhivcByYBrvm2dc9f72LZP12mH5mGxUhG7JQ64lQg==}
+  /@types/buffer-crc32@0.2.4:
+    resolution: {integrity: sha512-GSrhSZOK1/wazf2CjDp3CVJQKWzSc5Ugq3NyZ/RQqg1MWtmA9mAT6i6LzGKhzcRxDOl8aLB+AzvObDSlrMpvLw==}
     dependencies:
       '@types/node': 16.18.11
     dev: true
