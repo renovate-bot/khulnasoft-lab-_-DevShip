@@ -1,4 +1,4 @@
-![RedwoodJS Logo](https://github.com/khulnasoft-lab/devship/blob/main/packages/frameworks/logos/redwoodjs.svg)
+![RedwoodJS Logo](https://github.com/khulnasoft/devship/blob/main/packages/frameworks/logos/redwoodjs.svg)
 
 # RedwoodJS Example
 
@@ -8,7 +8,7 @@ This directory is a brief example of a [RedwoodJS](https://redwoodjs.com) app wi
 
 Deploy your own RedwoodJS project, along with Serverless Functions, with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft-lab/devship/tree/main/examples/redwoodjs&template=redwoodjs)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/devship/tree/main/examples/redwoodjs&template=redwoodjs)
 
 _Live Example: https://redwood-template.vercel.app_
 

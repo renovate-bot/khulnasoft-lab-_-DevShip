@@ -741,7 +741,7 @@ describe('build', () => {
       stack: expect.stringContaining('Please upgrade your Runtime'),
       hideStackTrace: true,
       code: 'NODEJS_DISCONTINUED_VERSION',
-      link: 'https://github.com/khulnasoft-lab/devship/blob/main/DEVELOPING_A_RUNTIME.md#lambdaruntime',
+      link: 'https://github.com/khulnasoft/devship/blob/main/DEVELOPING_A_RUNTIME.md#lambdaruntime',
     });
 
     // top level "error" also contains the same error
@@ -751,7 +751,7 @@ describe('build', () => {
       stack: expect.stringContaining('Please upgrade your Runtime'),
       hideStackTrace: true,
       code: 'NODEJS_DISCONTINUED_VERSION',
-      link: 'https://github.com/khulnasoft-lab/devship/blob/main/DEVELOPING_A_RUNTIME.md#lambdaruntime',
+      link: 'https://github.com/khulnasoft/devship/blob/main/DEVELOPING_A_RUNTIME.md#lambdaruntime',
     });
 
     // `config.json` contains `version`

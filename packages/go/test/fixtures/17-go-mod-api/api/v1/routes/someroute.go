@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"runtime"
 
-	"github.com/vercel/does-not-exist/api/_pkg/somepackage"
+	"github.com/khulnasoft/does-not-exist/api/_pkg/somepackage"
 )
 
 func Handler(w http.ResponseWriter, r *http.Request) {

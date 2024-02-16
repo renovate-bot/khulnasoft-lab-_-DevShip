@@ -764,7 +764,7 @@ main()
         pkg,
       });
       if (latest) {
-        const changelog = 'https://github.com/khulnasoft-lab/devship/releases';
+        const changelog = 'https://github.com/khulnasoft/devship/releases';
         const errorMsg =
           exitCode && exitCode !== 2
             ? chalk.magenta(

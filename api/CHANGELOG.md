@@ -4,4 +4,4 @@
 
 ### Patch Changes
 
-- fix RSC matching behavior & 404 status code on `fallback: false` ([#10388](https://github.com/khulnasoft-lab/devship/pull/10388))
+- fix RSC matching behavior & 404 status code on `fallback: false` ([#10388](https://github.com/khulnasoft/devship/pull/10388))

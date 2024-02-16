@@ -12,7 +12,7 @@ $ yarn install
 
 ## Deploy Your Own
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft-lab/devship/tree/main/examples/vitepress&template=vitepress)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/devship/tree/main/examples/vitepress&template=vitepress)
 
 _Live Example: https://vitepress-starter-template.vercel.app_
 

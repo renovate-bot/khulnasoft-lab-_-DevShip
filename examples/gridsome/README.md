@@ -1,4 +1,4 @@
-![Gridsome Logo](https://github.com/khulnasoft-lab/devship/blob/main/packages/frameworks/logos/gridsome.svg)
+![Gridsome Logo](https://github.com/khulnasoft/devship/blob/main/packages/frameworks/logos/gridsome.svg)
 
 # Gridsome Example
 
@@ -8,7 +8,7 @@ This directory is a brief example of a [Gridsome](https://gridsome.org/) app tha
 
 Deploy your own Gridsome project with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft-lab/devship/tree/main/examples/gridsome&template=gridsome)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/devship/tree/main/examples/gridsome&template=gridsome)
 
 _Live Example: https://gridsome-template.vercel.app_
 

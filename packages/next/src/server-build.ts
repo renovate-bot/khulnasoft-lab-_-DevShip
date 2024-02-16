@@ -63,7 +63,7 @@ import fs, { lstat } from 'fs-extra';
 import escapeStringRegexp from 'escape-string-regexp';
 import prettyBytes from 'pretty-bytes';
 
-// related PR: https://github.com/vercel/next.js/pull/30046
+// related PR: https://github.com/khulnasoft/next.js/pull/30046
 const CORRECT_NOT_FOUND_ROUTES_VERSION = 'v12.0.1';
 const CORRECT_MIDDLEWARE_ORDER_VERSION = 'v12.1.7-canary.29';
 const NEXT_DATA_MIDDLEWARE_RESOLVING_VERSION = 'v12.1.7-canary.33';
@@ -94,8 +94,8 @@ const PRELOAD_CHUNKS = {
   ],
 };
 
-// related PR: https://github.com/vercel/next.js/pull/52997
-// and https://github.com/vercel/next.js/pull/56318
+// related PR: https://github.com/khulnasoft/next.js/pull/52997
+// and https://github.com/khulnasoft/next.js/pull/56318
 const BUNDLED_SERVER_NEXT_VERSION = 'v13.5.4';
 
 const BUNDLED_SERVER_NEXT_PATH =
@@ -277,7 +277,7 @@ export async function serverBuild({
     throw new NowBuildError({
       code: 'NEXT_NO_SERVER_PAGES',
       message: 'No server pages were built',
-      link: 'https://err.sh/vercel/vercel/now-next-no-serverless-pages-built',
+      link: 'https://err.sh/khulnasoft/devship/now-next-no-serverless-pages-built',
     });
   }
 

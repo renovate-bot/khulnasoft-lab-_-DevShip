@@ -6,7 +6,7 @@ import (
 	"syscall"
 
 	"__VC_HANDLER_PACKAGE_NAME"
-	vc "github.com/vercel/go-bridge/go/bridge"
+	vc "github.com/khulnasoft/go-bridge/go/bridge"
 )
 
 func checkForLambdaWrapper() {

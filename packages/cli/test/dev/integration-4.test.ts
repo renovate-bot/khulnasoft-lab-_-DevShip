@@ -71,7 +71,7 @@ test(
       fetchOpts('image/webp')
     );
     /*
-     * Disabled gif in https://github.com/vercel/next.js/pull/22253
+     * Disabled gif in https://github.com/khulnasoft/next.js/pull/22253
      * Eventually we should enable again when `next dev` supports it
     await testPath(
       200,
@@ -82,7 +82,7 @@ test(
     );
     */
     /*
-     * Disabled svg in https://github.com/vercel/next.js/pull/34431
+     * Disabled svg in https://github.com/khulnasoft/next.js/pull/34431
      * We can test for 400 status since config option is not enabled.
      */
     await testPath(400, toUrl('/test.svg', 64, 70));

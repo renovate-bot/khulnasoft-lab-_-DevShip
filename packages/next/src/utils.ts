@@ -280,7 +280,7 @@ export async function getRoutesManifest(
   if (shouldHaveManifest && !hasRoutesManifest) {
     throw new NowBuildError({
       message: `The file "${pathRoutesManifest}" couldn't be found. This is often caused by a misconfiguration in your project.`,
-      link: 'https://err.sh/vercel/vercel/now-next-routes-manifest',
+      link: 'https://err.sh/khulnasoft/devship/now-next-routes-manifest',
       code: 'NEXT_NO_ROUTES_MANIFEST',
     });
   }
@@ -2605,7 +2605,7 @@ export function normalizeIndexOutput(
 
 /**
  * The path to next-server was changed in
- * https://github.com/vercel/next.js/pull/26756
+ * https://github.com/khulnasoft/next.js/pull/26756
  */
 export function getNextServerPath(nextVersion: string) {
   return semver.gte(nextVersion, 'v11.0.2-canary.4')

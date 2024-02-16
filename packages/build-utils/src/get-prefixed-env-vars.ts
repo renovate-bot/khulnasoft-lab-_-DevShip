@@ -31,7 +31,7 @@ export function getPrefixedEnvVars({
         }
       });
     // Tell turbo to exclude all Vercel System Env Vars
-    // See https://github.com/vercel/turborepo/pull/1622
+    // See https://github.com/khulnasoft/turborepo/pull/1622
     newEnvs.TURBO_CI_VENDOR_ENV_KEY = `${envPrefix}${vercelSystemEnvPrefix}`;
   }
   return newEnvs;

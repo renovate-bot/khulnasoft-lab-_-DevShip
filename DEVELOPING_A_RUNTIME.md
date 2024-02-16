@@ -118,7 +118,7 @@ export async function shouldServe(options: ShouldServeOptions) {
 ```
 
 If this function is not defined, Vercel CLI will use the [default
-implementation](https://github.com/khulnasoft-lab/devship/blob/52994bfe26c5f4f179bdb49783ee57ce19334631/packages/now-build-utils/src/should-serve.ts).
+implementation](https://github.com/khulnasoft/devship/blob/52994bfe26c5f4f179bdb49783ee57ce19334631/packages/now-build-utils/src/should-serve.ts).
 
 ### `startDevServer()`
 

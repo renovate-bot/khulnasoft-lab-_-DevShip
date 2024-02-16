@@ -4,13 +4,13 @@
 
 ### Patch Changes
 
-- bump: edge-runtime ([#10712](https://github.com/khulnasoft-lab/devship/pull/10712))
+- bump: edge-runtime ([#10712](https://github.com/khulnasoft/devship/pull/10712))
 
 ## 1.1.0
 
 ### Minor Changes
 
-- Add flag to geolocation ([#10443](https://github.com/khulnasoft-lab/devship/pull/10443))
+- Add flag to geolocation ([#10443](https://github.com/khulnasoft/devship/pull/10443))
 
   Usage
 
@@ -22,16 +22,16 @@
 
 ### Patch Changes
 
-- [node] upgrade edge-runtime ([#10451](https://github.com/khulnasoft-lab/devship/pull/10451))
+- [node] upgrade edge-runtime ([#10451](https://github.com/khulnasoft/devship/pull/10451))
 
 ## 1.0.1
 
 ### Patch Changes
 
-- upgrade edge-runtime ([#10385](https://github.com/khulnasoft-lab/devship/pull/10385))
+- upgrade edge-runtime ([#10385](https://github.com/khulnasoft/devship/pull/10385))
 
 ## 1.0.0
 
 ### Major Changes
 
-- BREAKING CHANGE: Drop Node.js 14, bump minimum to Node.js 16 ([#10369](https://github.com/khulnasoft-lab/devship/pull/10369))
+- BREAKING CHANGE: Drop Node.js 14, bump minimum to Node.js 16 ([#10369](https://github.com/khulnasoft/devship/pull/10369))

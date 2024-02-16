@@ -17,8 +17,8 @@ jobs:
           comment: |
             Thank you so much for filing this issue. 
 
-            We do try to keep issues in this repository focused on the khulnasoft command line and related code. 
+            We do try to keep issues in this repository focused on the vercel command line and related code. 
 
-            At this point we think that this issue is best handled by our friendly KhulnaSoft support team. They can be found by contacting them at: https://khulnasoft.com/help#issues
+            At this point we think that this issue is best handled by our friendly Vercel support team. They can be found by contacting them at: https://vercel.com/help#issues
 
             If you think closing of this is a mistake, then please re-open this issue and we'll take another look :bow:

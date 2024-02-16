@@ -277,7 +277,7 @@ describe('normalizePackageJson', () => {
     });
   });
 
-  // https://github.com/vercel/next.js/issues/5700
+  // https://github.com/khulnasoft/next.js/issues/5700
   it('should normalize user report vercel/next.js#5700 correctly', () => {
     const defaultPackage = {
       version: '1.0.0',

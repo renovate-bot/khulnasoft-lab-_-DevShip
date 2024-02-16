@@ -4,4 +4,4 @@
 
 ### Patch Changes
 
-- Remove "babel" compilation ([#10546](https://github.com/khulnasoft-lab/devship/pull/10546))
+- Remove "babel" compilation ([#10546](https://github.com/khulnasoft/devship/pull/10546))

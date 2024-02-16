@@ -1,4 +1,4 @@
-![Ember Logo](https://github.com/khulnasoft-lab/devship/blob/main/packages/frameworks/logos/ember.svg)
+![Ember Logo](https://github.com/khulnasoft/devship/blob/main/packages/frameworks/logos/ember.svg)
 
 # Ember Example
 
@@ -8,7 +8,7 @@ This directory is a brief example of an [Ember](https://emberjs.com/) app that c
 
 Deploy your own Ember project with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft-lab/devship/tree/main/examples/ember&template=ember)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/devship/tree/main/examples/ember&template=ember)
 
 _Live Example: https://ember-template.vercel.app_
 

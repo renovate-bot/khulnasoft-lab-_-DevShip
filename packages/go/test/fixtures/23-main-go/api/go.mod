@@ -1,4 +1,4 @@
-module github.com/vercel/does-not-exist
+module github.com/khulnasoft/does-not-exist
 
 go 1.13
 

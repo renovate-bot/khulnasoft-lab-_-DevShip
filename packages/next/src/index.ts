@@ -97,9 +97,9 @@ import {
 export const version = 2;
 export const htmlContentType = 'text/html; charset=utf-8';
 const SERVER_BUILD_MINIMUM_NEXT_VERSION = 'v10.0.9-canary.4';
-// related PR: https://github.com/vercel/next.js/pull/25418
+// related PR: https://github.com/khulnasoft/next.js/pull/25418
 const BEFORE_FILES_CONTINUE_NEXT_VERSION = 'v10.2.3-canary.1';
-// related PR: https://github.com/vercel/next.js/pull/27143
+// related PR: https://github.com/khulnasoft/next.js/pull/27143
 const REDIRECTS_NO_STATIC_NEXT_VERSION = 'v11.0.2-canary.15';
 
 export const MAX_AGE_ONE_YEAR = 31536000;
@@ -285,7 +285,7 @@ export const build: BuildV2 = async ({
 
   if (isLegacy) {
     console.warn(
-      "WARNING: your application is being deployed in @vercel/next's legacy mode. http://err.sh/vercel/vercel/now-next-legacy-mode"
+      "WARNING: your application is being deployed in @vercel/next's legacy mode. http://err.sh/khulnasoft/devship/now-next-legacy-mode"
     );
 
     await Promise.all([
@@ -378,14 +378,14 @@ export const build: BuildV2 = async ({
         console.warn(
           `WARNING: your application is being opted out of @vercel/next's optimized lambdas mode due to legacy routes in ${path.basename(
             nowJsonPath
-          )}. http://err.sh/vercel/vercel/next-legacy-routes-optimized-lambdas`
+          )}. http://err.sh/khulnasoft/devship/next-legacy-routes-optimized-lambdas`
         );
       }
     }
 
     if (hasFunctionsConfig) {
       console.warn(
-        `WARNING: Your application is being opted out of "@vercel/next" optimized lambdas mode due to \`functions\` config.\nMore info: http://err.sh/vercel/vercel/next-functions-config-optimized-lambdas`
+        `WARNING: Your application is being opted out of "@vercel/next" optimized lambdas mode due to \`functions\` config.\nMore info: http://err.sh/khulnasoft/devship/next-functions-config-optimized-lambdas`
       );
     }
   }
@@ -1390,7 +1390,7 @@ export const build: BuildV2 = async ({
       throw new NowBuildError({
         code: 'NEXT_NO_SERVERLESS_PAGES',
         message: 'No serverless pages were built',
-        link: 'https://err.sh/vercel/vercel/now-next-no-serverless-pages-built',
+        link: 'https://err.sh/khulnasoft/devship/now-next-no-serverless-pages-built',
       });
     }
 

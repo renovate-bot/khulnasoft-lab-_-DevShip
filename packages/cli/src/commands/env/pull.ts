@@ -156,7 +156,7 @@ export default async function pull(
     // to avoid accidentally committing it to git.
     // We use '.env*.local' to match the default .gitignore from
     // create-next-app template. See:
-    // https://github.com/vercel/next.js/blob/06abd634899095b6cc28e6e8315b1e8b9c8df939/packages/create-next-app/templates/app/js/gitignore#L28
+    // https://github.com/khulnasoft/next.js/blob/06abd634899095b6cc28e6e8315b1e8b9c8df939/packages/create-next-app/templates/app/js/gitignore#L28
     const rootPath = link.repoRoot ?? cwd;
     isGitIgnoreUpdated = await addToGitIgnore(rootPath, '.env*.local');
   }

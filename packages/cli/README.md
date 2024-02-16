@@ -6,7 +6,7 @@
   <p align="center">Develop. Preview. Ship.</p>
 </p>
 
-[![Join the community on GitHub Discussions](https://badgen.net/badge/join%20the%20discussion/on%20github/black?icon=github)](https://github.com/khulnasoft-lab/devship/discussions)
+[![Join the community on GitHub Discussions](https://badgen.net/badge/join%20the%20discussion/on%20github/black?icon=github)](https://github.com/khulnasoft/devship/discussions)
 
 ## Usage
 
@@ -37,7 +37,7 @@ For details on how to use Vercel CLI, check out our [documentation](https://verc
 To develop Vercel CLI, first check out the source code, install dependencies, and build all packages:
 
 ```bash
-git clone https://github.com/khulnasoft-lab/devship.git
+git clone https://github.com/khulnasoft/devship.git
 cd vercel
 pnpm install
 pnpm build
