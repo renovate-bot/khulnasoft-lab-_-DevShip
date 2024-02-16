@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/khulnasoft-lab/devship.git",
+    "url": "https://github.com/khulnasoft/devship.git",
     "directory": "packages/gatsby-plugin-vercel-analytics"
   },
   "keywords": [

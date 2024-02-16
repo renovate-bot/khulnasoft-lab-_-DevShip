@@ -34,7 +34,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="https://github.com/khulnasoft/next.js/tree/master/examples"
             className={styles.card}
           >
             <h2>Examples &rarr;</h2>

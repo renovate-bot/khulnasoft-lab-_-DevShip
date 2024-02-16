@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	vc "github.com/vercel/go-bridge/go/bridge"
+	vc "github.com/khulnasoft/go-bridge/go/bridge"
 )
 
 func main() {

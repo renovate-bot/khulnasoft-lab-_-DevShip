@@ -576,6 +576,52 @@ it(
   ms('1m')
 );
 
+it('should return cliType npm when no lockfile is present and VERCEL_ENABLE_NPM_DEFAULT is set', async () => {
+  const originalRepoLockfilePath = path.join(
+    __dirname,
+    '..',
+    '..',
+    '..',
+    'pnpm-lock.yaml'
+  );
+  const originalRepoLockfileData = await fs.readFile(originalRepoLockfilePath);
+  await fs.remove(originalRepoLockfilePath);
+  try {
+    process.env.VERCEL_ENABLE_NPM_DEFAULT = '1';
+    const fixture = path.join(__dirname, 'fixtures', '40-no-lockfile');
+    const result = await scanParentDirs(fixture);
+    expect(result.cliType).toEqual('npm');
+    expect(result.lockfileVersion).toEqual(undefined);
+    expect(result.lockfilePath).toEqual(undefined);
+    expect(result.packageJsonPath).toEqual(path.join(fixture, 'package.json'));
+  } finally {
+    delete process.env.VERCEL_ENABLE_NPM_DEFAULT;
+    await fs.writeFile(originalRepoLockfilePath, originalRepoLockfileData);
+  }
+});
+
+it('should return cliType yarn when no lockfile is present and VERCEL_ENABLE_NPM_DEFAULT is not set', async () => {
+  const originalRepoLockfilePath = path.join(
+    __dirname,
+    '..',
+    '..',
+    '..',
+    'pnpm-lock.yaml'
+  );
+  const originalRepoLockfileData = await fs.readFile(originalRepoLockfilePath);
+  await fs.remove(originalRepoLockfilePath);
+  try {
+    const fixture = path.join(__dirname, 'fixtures', '40-no-lockfile');
+    const result = await scanParentDirs(fixture);
+    expect(result.cliType).toEqual('yarn');
+    expect(result.lockfileVersion).toEqual(undefined);
+    expect(result.lockfilePath).toEqual(undefined);
+    expect(result.packageJsonPath).toEqual(path.join(fixture, 'package.json'));
+  } finally {
+    await fs.writeFile(originalRepoLockfilePath, originalRepoLockfileData);
+  }
+});
+
 it('should return cliType bun and correct lock file for bun v1', async () => {
   const fixture = path.join(__dirname, 'fixtures', '31-bun-v1-with-yarn-lock');
   const result = await scanParentDirs(fixture);
@@ -659,7 +705,7 @@ it('should detect package.json in nested backend', async () => {
   );
   const result = await scanParentDirs(fixture);
   expect(result.cliType).toEqual('pnpm');
-  // There is no lockfile but this test will pick up vercel/vercel/pnpm-lock.yaml
+  // There is no lockfile but this test will pick up khulnasoft/devship/pnpm-lock.yaml
   expect(result.lockfileVersion).toEqual(6);
   expect(result.packageJsonPath).toEqual(path.join(fixture, 'package.json'));
 });
@@ -671,7 +717,7 @@ it('should detect package.json in nested frontend', async () => {
   );
   const result = await scanParentDirs(fixture);
   expect(result.cliType).toEqual('pnpm');
-  // There is no lockfile but this test will pick up vercel/vercel/pnpm-lock.yaml
+  // There is no lockfile but this test will pick up khulnasoft/devship/pnpm-lock.yaml
   expect(result.lockfileVersion).toEqual(6);
   expect(result.packageJsonPath).toEqual(path.join(fixture, 'package.json'));
 });

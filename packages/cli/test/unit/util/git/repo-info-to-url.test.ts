@@ -9,7 +9,7 @@ describe('repoInfoToUrl()', () => {
       repo: 'foo',
       url: 'git@github.com:vercel/foo.git',
     };
-    expect(repoInfoToUrl(info)).toEqual('https://github.com/vercel/foo');
+    expect(repoInfoToUrl(info)).toEqual('https://github.com/khulnasoft/foo');
   });
 
   it('should support "gitlab" URL', () => {

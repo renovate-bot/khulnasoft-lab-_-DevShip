@@ -435,7 +435,7 @@ export const build: BuildV2 = async ({
 
     https://github.com/facebook/create-react-app/issues/2453
     https://github.com/facebook/create-react-app/pull/2501
-    https://github.com/vercel/community/discussions/30
+    https://github.com/khulnasoft/community/discussions/30
     */
     if (framework?.slug === 'create-react-app') {
       spawnOpts.env.CI = 'false';
@@ -602,7 +602,7 @@ export const build: BuildV2 = async ({
           await checkForPort(devPort, DEV_SERVER_PORT_BIND_TIMEOUT);
         } catch (err) {
           throw new Error(
-            `Failed to detect a server running on port ${devPort}.\nDetails: https://err.sh/vercel/vercel/now-static-build-failed-to-detect-a-server`
+            `Failed to detect a server running on port ${devPort}.\nDetails: https://err.sh/khulnasoft/devship/now-static-build-failed-to-detect-a-server`
           );
         }
 

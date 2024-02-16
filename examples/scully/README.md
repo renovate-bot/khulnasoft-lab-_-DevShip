@@ -1,4 +1,4 @@
-![Scully Logo](https://github.com/khulnasoft-lab/devship/blob/main/packages/frameworks/logos/scully.svg)
+![Scully Logo](https://github.com/khulnasoft/devship/blob/main/packages/frameworks/logos/scully.svg)
 
 # Scully Example
 
@@ -8,7 +8,7 @@ This directory is a brief example of a [Scully](https://scully.io) site that can
 
 Deploy your own Scully project with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft-lab/devship/tree/main/examples/scully)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/devship/tree/main/examples/scully)
 
 _Live Example: https://scully-template.vercel.app_
 

@@ -5,12 +5,12 @@ This directory is a brief example of a [Remix](https://remix.run/docs) site that
 To get started, run the Remix cli with this template
 
 ```sh
-npx create-remix@latest --template vercel/vercel/examples/remix
+npx create-remix@latest --template khulnasoft/devship/examples/remix
 ```
 
 ## Deploy Your Own
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft-lab/devship/tree/main/examples/remix&template=remix)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/devship/tree/main/examples/remix&template=remix)
 
 _Live Example: https://remix-run-template.vercel.app_
 

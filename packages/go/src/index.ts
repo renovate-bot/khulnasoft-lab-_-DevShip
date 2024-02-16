@@ -842,7 +842,7 @@ export async function startDevServer(
   }`;
 
   // Note: We must run `go build`, then manually spawn the dev server instead
-  // of spawning `go run`. See https://github.com/khulnasoft-lab/devship/pull/8718 for
+  // of spawning `go run`. See https://github.com/khulnasoft/devship/pull/8718 for
   // more info.
 
   // build the dev server

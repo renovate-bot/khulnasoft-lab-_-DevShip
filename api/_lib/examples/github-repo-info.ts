@@ -52,7 +52,7 @@ export async function getGitHubRepoInfo(repo: Repo) {
   }
 
   if (
-    data.id === 'vercel/vercel' &&
+    data.id === 'khulnasoft/devship' &&
     data.subdir &&
     data.subdir[0] === 'examples'
   ) {

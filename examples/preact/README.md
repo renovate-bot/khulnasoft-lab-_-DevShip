@@ -6,7 +6,7 @@ This directory is a brief example of a [Preact](https://preactjs.com/) app that 
 
 Deploy your own Preact project with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft-lab/devship/tree/main/examples/preact&template=preact)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/devship/tree/main/examples/preact&template=preact)
 
 _Live Example: https://preact-template.vercel.app_
 

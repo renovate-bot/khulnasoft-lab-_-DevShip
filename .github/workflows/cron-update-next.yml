@@ -22,10 +22,10 @@ jobs:
         uses: actions/github-script@v6
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.ORG_REPO_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN_PULL_REQUESTS }}
         # See https://github.com/actions/github-script#run-a-separate-file-with-an-async-function
         with:
-          github-token: ${{ secrets.ORG_REPO_TOKEN }}
+          github-token: ${{ secrets.GH_TOKEN_PULL_REQUESTS }}
           script: |
             const script = require('./utils/update-next.js')
             await script({ github, context })

@@ -76,4 +76,4 @@ export async function handleRequest(
 
 #### Defined in
 
-[packages/edge/src/request.ts:47](https://github.com/khulnasoft-lab/devship/blob/main/packages/edge/src/request.ts#L47)
+[packages/edge/src/request.ts:47](https://github.com/khulnasoft-lab/DevShip/blob/main/packages/edge/src/request.ts#L47)

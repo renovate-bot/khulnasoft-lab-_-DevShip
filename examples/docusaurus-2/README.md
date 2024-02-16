@@ -6,7 +6,7 @@ This directory is a brief example of a [Docusaurus](https://v2.docusaurus.io) si
 
 Deploy your own Docusaurus project with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft-lab/devship/tree/main/docusaurus-2&template=docusaurus-2)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/devship/tree/main/docusaurus-2&template=docusaurus-2)
 
 _Live Example: https://docusaurus-2-template.vercel.app_
 

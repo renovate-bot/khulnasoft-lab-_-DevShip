@@ -1,6 +1,6 @@
 # Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via [GitHub Discussions](https://github.com/khulnasoft-lab/devship/discussions/new) with the owners of this repository before submitting a Pull Request.
+When contributing to this repository, please first discuss the change you wish to make via [GitHub Discussions](https://github.com/khulnasoft/devship/discussions/new) with the owners of this repository before submitting a Pull Request.
 
 Please read our [Code of Conduct](CODE_OF_CONDUCT.md) and follow it in all your interactions with the project.
 
@@ -11,7 +11,7 @@ This project is configured in a monorepo, where one repository contains multiple
 To get started, execute the following:
 
 ```
-git clone https://github.com/khulnasoft-lab/devship
+git clone https://github.com/khulnasoft/devship
 cd vercel
 corepack enable
 pnpm install
@@ -94,7 +94,7 @@ nodeFileTrace(['path/to/entrypoint.js'], {
   .then(e => console.error(e));
 ```
 
-When you run this script, you'll see all the imported files. If anything file is missing, the bug is in [@vercel/nft](https://github.com/vercel/nft) and not the Builder.
+When you run this script, you'll see all the imported files. If anything file is missing, the bug is in [@vercel/nft](https://github.com/khulnasoft/nft) and not the Builder.
 
 ## Deploy a Builder with existing project
 

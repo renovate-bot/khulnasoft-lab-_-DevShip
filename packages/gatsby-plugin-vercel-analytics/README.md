@@ -2,7 +2,7 @@
 
 ---
 
-⚠️ This repo was migrated from https://github.com/vercel/gatsby-plugin-vercel
+⚠️ This repo was migrated from https://github.com/khulnasoft/gatsby-plugin-vercel
 
 ---
 

@@ -6,7 +6,7 @@
 
 Deploy your own Hydrogen project with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft-lab/devship/tree/main/examples/hydrogen&template=hydrogen)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/devship/tree/main/examples/hydrogen&template=hydrogen)
 
 _Live Example: https://hydrogen-template.vercel.app_
 

@@ -4,4 +4,4 @@
 
 ### Major Changes
 
-- BREAKING CHANGE: Drop Node.js 14, bump minimum to Node.js 16 ([#10369](https://github.com/khulnasoft-lab/devship/pull/10369))
+- BREAKING CHANGE: Drop Node.js 14, bump minimum to Node.js 16 ([#10369](https://github.com/khulnasoft/devship/pull/10369))

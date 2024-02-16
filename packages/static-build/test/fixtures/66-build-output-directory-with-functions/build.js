@@ -15,7 +15,7 @@ const execPath = `./go/bin/go`;
 execSync(`mkdir -p ${__dirname}/.vercel_build_output/functions/go-site`, {
   stdio: 'inherit',
 });
-execSync(`${execPath} get github.com/vercel/go-bridge/go/bridge`, {
+execSync(`${execPath} get github.com/khulnasoft/go-bridge/go/bridge`, {
   stdio: 'inherit',
 });
 execSync(

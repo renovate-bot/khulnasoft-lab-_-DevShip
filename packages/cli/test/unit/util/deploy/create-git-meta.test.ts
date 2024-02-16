@@ -68,64 +68,56 @@ describe('parseRepoUrl', () => {
     expect(repoInfo).toBeNull();
   });
   it('should parse url with `.com` in the repo name', () => {
-    const repoInfo = parseRepoUrl(
-      'https://github.com/khulnasoft-lab/devship.com.git'
-    );
+    const repoInfo = parseRepoUrl('https://github.com/khulnasoft/devship.com.git');
     expect(repoInfo).toBeTruthy();
     expect(repoInfo?.provider).toEqual('github');
     expect(repoInfo?.org).toEqual('vercel');
     expect(repoInfo?.repo).toEqual('vercel.com');
   });
   it('should parse url with a period in the repo name', () => {
-    const repoInfo = parseRepoUrl('https://github.com/vercel/next.js');
+    const repoInfo = parseRepoUrl('https://github.com/khulnasoft/next.js');
     expect(repoInfo).toBeTruthy();
     expect(repoInfo?.provider).toEqual('github');
     expect(repoInfo?.org).toEqual('vercel');
     expect(repoInfo?.repo).toEqual('next.js');
   });
   it('should parse url that ends with .git', () => {
-    const repoInfo = parseRepoUrl('https://github.com/vercel/next.js.git');
+    const repoInfo = parseRepoUrl('https://github.com/khulnasoft/next.js.git');
     expect(repoInfo).toBeTruthy();
     expect(repoInfo?.provider).toEqual('github');
     expect(repoInfo?.org).toEqual('vercel');
     expect(repoInfo?.repo).toEqual('next.js');
   });
   it('should parse github https url', () => {
-    const repoInfo = parseRepoUrl(
-      'https://github.com/khulnasoft-lab/devship.git'
-    );
+    const repoInfo = parseRepoUrl('https://github.com/khulnasoft/devship.git');
     expect(repoInfo).toBeTruthy();
     expect(repoInfo?.provider).toEqual('github');
     expect(repoInfo?.org).toEqual('vercel');
     expect(repoInfo?.repo).toEqual('vercel');
   });
   it('should parse github https url without the .git suffix', () => {
-    const repoInfo = parseRepoUrl('https://github.com/khulnasoft-lab/devship');
+    const repoInfo = parseRepoUrl('https://github.com/khulnasoft/devship');
     expect(repoInfo).toBeTruthy();
     expect(repoInfo?.provider).toEqual('github');
     expect(repoInfo?.org).toEqual('vercel');
     expect(repoInfo?.repo).toEqual('vercel');
   });
   it('should parse github git url', () => {
-    const repoInfo = parseRepoUrl(
-      'git://github.com/khulnasoft-lab/devship.git'
-    );
+    const repoInfo = parseRepoUrl('git://github.com/khulnasoft/devship.git');
     expect(repoInfo).toBeTruthy();
     expect(repoInfo?.provider).toEqual('github');
     expect(repoInfo?.org).toEqual('vercel');
     expect(repoInfo?.repo).toEqual('vercel');
   });
   it('should parse github git url with trailing slash', () => {
-    const repoInfo = parseRepoUrl(
-      'git://github.com/khulnasoft-lab/devship.git/'
-    );
+    const repoInfo = parseRepoUrl('git://github.com/khulnasoft/devship.git/');
     expect(repoInfo).toBeTruthy();
     expect(repoInfo?.provider).toEqual('github');
     expect(repoInfo?.org).toEqual('vercel');
     expect(repoInfo?.repo).toEqual('vercel');
   });
   it('should parse github ssh url', () => {
-    const repoInfo = parseRepoUrl('git@github.com:vercel/vercel.git');
+    const repoInfo = parseRepoUrl('git@github.com:khulnasoft/devship.git');
     expect(repoInfo).toBeTruthy();
     expect(repoInfo?.provider).toEqual('github');
     expect(repoInfo?.org).toEqual('vercel');
@@ -294,7 +286,7 @@ describe('createGitMeta', () => {
     const tmpDir = join(os.tmpdir(), 'git-corrupt');
     try {
       // Copy the fixture into a temp dir so that we don't pick
-      // up Git information from the `vercel/vercel` repo itself
+      // up Git information from the `khulnasoft/devship` repo itself
       await fs.copy(directory, tmpDir);
       await fs.rename(join(tmpDir, 'git'), join(tmpDir, '.git'));
 

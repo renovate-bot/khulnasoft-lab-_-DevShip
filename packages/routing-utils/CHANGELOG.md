@@ -4,10 +4,10 @@
 
 ### Minor Changes
 
-- Adds support for statusCode property on rewrites ([#10495](https://github.com/khulnasoft-lab/devship/pull/10495))
+- Adds support for statusCode property on rewrites ([#10495](https://github.com/khulnasoft/devship/pull/10495))
 
 ## 3.0.0
 
 ### Major Changes
 
-- BREAKING CHANGE: Drop Node.js 14, bump minimum to Node.js 16 ([#10369](https://github.com/khulnasoft-lab/devship/pull/10369))
+- BREAKING CHANGE: Drop Node.js 14, bump minimum to Node.js 16 ([#10369](https://github.com/khulnasoft/devship/pull/10369))
