@@ -1,17 +1,12 @@
 {
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "allowJs": true,
-    "noImplicitReturns": false,
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
-    "outDir": "./dist",
-    "resolveJsonModule": true,
-    "typeRoots": ["./types", "./node_modules/@types"]
-  },
-  "extends": "../../tsconfig.base.json",
-  "include": ["./types", "src/**/*"],
-  "exclude": ["templates/*"],
-  "ts-node": {
-    "swc": true // https://typestrong.org/ts-node/docs/swc/
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "types": ["node", "mocha", "chai", "sinon"],
+    "target": "es2017",
+    "allowJs": false,
+    "esModuleInterop": false,
+    "declarationMap": true
   }
 }
